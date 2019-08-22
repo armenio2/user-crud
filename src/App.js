@@ -4,9 +4,8 @@ import Assets from './assets'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ background: Assets.colors.default }}>
       hello
-      <img src={Assets.icons.see}></img>
     </div>
   );
 }
