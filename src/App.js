@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       hello
-      <img src={Assets.icons.remove}></img>
+      <img src={Assets.icons.see}></img>
     </div>
   );
 }
