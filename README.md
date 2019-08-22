@@ -3,7 +3,7 @@
 ## Structure
 
 ```
-src   - assets  - icon
+src   - assets  - icons
                 - color
                 - padding
                 - margin
