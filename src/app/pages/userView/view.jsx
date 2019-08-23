@@ -1,7 +1,7 @@
 import React from 'react'
 
-const UserView = () => {
-    return (<p>user view</p>)
+const UserView = (props) => {
+    return (<p onClick={props.onClickFunction}>user view</p>)
 }
 
 export default UserView
