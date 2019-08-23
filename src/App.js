@@ -1,11 +1,10 @@
 import React from 'react';
-import Assets from './assets'
-
+import UserView from './app/pages/userView';
 
 function App() {
   return (
-    <div className="App" style={{ background: Assets.colors.default, margin: Assets.margin.xl, fontSize: Assets.text.size.md, fontStyle: Assets.text.font.italic }}>
-      hello
+    <div className="App" >
+      <UserView></UserView>
     </div>
   );
 }
