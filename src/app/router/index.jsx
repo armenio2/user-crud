@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import UserView from '../pages/userView';
 import FormView from '../pages/formView';
@@ -19,9 +19,11 @@ const noMatch = () => {
 const routerView = () => {
     return (
         <Router>
-            <Route exact path="/" component={userView} />
-            <Route path="/form" component={formView} />
-            <Route component={noMatch} />
+            <Switch>
+                <Route exact path="/" component={userView} />
+                <Route path="/form" component={formView} />
+                <Route component={noMatch} />
+            </Switch>
         </Router>
     );
 }
