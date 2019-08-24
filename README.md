@@ -11,8 +11,13 @@ src   - assets  - icons
                             - font
                           
                           
-      - app     - pages     - list - table - row
-                            - crud - form  - input
+      - app     - pages     - userView - controller
+                                       - view
+                                       - table - row
+
+                            - formView - controller
+                                       - view
+                                       - form  - input
                  
                 - store
                 - reducers  - reducer
@@ -22,7 +27,7 @@ src   - assets  - icons
                 - support   - loading
                             - error
                             
-                - data      - repository
+                - data      - repository/model
                             - service
                             - local
                             
