@@ -11,7 +11,9 @@ src   - assets  - icons
                             - font
                           
                           
-      - app     - pages     - userView - controller
+      - app     - router    
+      
+                - pages     - userView - controller
                                        - view
                                        - table - row
 
